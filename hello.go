@@ -8,6 +8,6 @@ import (
 
 func Hello(name string) string {
 	color.Cyan("Welcome %s", name)
-	msg := fmt.Sprint("Hi, %s. Welcome!", name)
+	msg := fmt.Sprintf("Hi, %s. Welcome!", name)
 	return msg
 }

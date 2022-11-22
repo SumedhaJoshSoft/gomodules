@@ -1,9 +1,12 @@
 package main
 
 import (
-	"github.com/SumedhaJoshSoft/hello"
+	"fmt"
+
+	hello "github.com/SumedhaJoshSoft/gomodules"
 )
 
 func main() {
-	hello.Hello("Sumedha")
+	msg := hello.Hello("Sumedha")
+	fmt.Println(msg)
 }
