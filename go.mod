@@ -1,4 +1,4 @@
-module github.com/SumedhaJoshSoft/hello
+module github.com/SumedhaJoshSoft/gomodules
 
 go 1.13
 
